@@ -4,6 +4,14 @@ const app=express();
 
 
 
+app.get("/hello",(req,res)=>{
+    console.log(req.query);
+    res.send("Hello from get request");
+})
+app.get("/hello/:userId/:pass",(req,res)=>{
+    console.log(req.params);
+    res.send("hello from second get request");
+})
 app.post("/hello",(req,res)=>{
     res.send("post request from gaurav");
 })
