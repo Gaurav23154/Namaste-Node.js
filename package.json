@@ -1,0 +1,27 @@
+{
+  "name": "namaste-nodejs",
+  "version": "1.0.0",
+  "description": "Node js Tutorial",
+  "keywords": [
+    "Ya",
+    "to",
+    "Learn",
+    "hai",
+    "Ya",
+    "to",
+    "win"
+  ],
+  "license": "ISC",
+  "author": "Gaurav Jaiswal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
